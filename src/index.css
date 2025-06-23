@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@layer utilities {
+  :root {
+    --background: #ffffff;
+    --foreground: #171717;
+    --orange: #d87d4a;
+    --lightorange: #fbaf85;
+    --almostblack: #101010;
+    --fullblack: #000;
+    --white: #fff;
+    --almostwhite: #fafafa;
+    --gray: #f1f1f1;
+  }
+
+  body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
